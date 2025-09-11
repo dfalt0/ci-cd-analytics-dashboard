@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+psycopg2-binary     # for Postgres (use sqlite3 builtin if starting simple)
+requests
+pydantic
+alembic             # for migrations (optional but nice)
+pytest              # for testing
